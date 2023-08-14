@@ -1,6 +1,7 @@
 {
   "name": "rodrigo-simoes",
   "version": "0.1.0",
+  "homepage": "Site-Rodrigo-Simoes/",
   "private": true,
   "scripts": {
     "dev": "next dev",
