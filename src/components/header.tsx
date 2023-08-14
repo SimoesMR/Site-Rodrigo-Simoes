@@ -8,7 +8,7 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode }) => {
   return (
-    <header className="px-10 dark:bg-gray-900 md:px-20 lg:px-52 fixed top-0 left-0 right-0 z-50">
+    <header className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-52 fixed top-0 left-0 right-0 z-50">
       <nav className="py-5 flex justify-between align-middle items-center dark:text-white">
         <a href="#sobreMim">Sobre Mim</a>
         <ul className="flex items-center">
