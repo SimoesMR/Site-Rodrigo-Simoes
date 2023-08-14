@@ -3,8 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   output: "export", // Habilita a exportação estática
-  basePath: "/",
-  assetPrefix: "/",
+  basePath: "/Site-Rodrigo-Simoes",
+  assetPrefix: "/Site-Rodrigo-Simoes",
 };
 
 module.exports = nextConfig;
