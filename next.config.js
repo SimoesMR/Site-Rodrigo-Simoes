@@ -2,7 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  output: "export", // Habilita a exportação estática
+  output:
+    process.env.NEXT_PUBLIC_EXPORT_OUTPUT === "true" ? "export" : undefined,
   basePath: process.env.NEXT_PUBLIC_PDF_PATH,
   assetPrefix: process.env.NEXT_PUBLIC_PDF_PATH,
   env: {
