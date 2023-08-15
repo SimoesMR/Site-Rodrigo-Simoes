@@ -1,7 +1,7 @@
 const DownloadCurriculo = () => {
   const downloadArquivoCurriculo = () => {
     const link = document.createElement("a");
-    link.href = "/CurriculoRodrigoSimoes.pdf";
+    link.href = "/Site-Rodrigo-Simoes/CurriculoRodrigoSimoes.pdf";
     link.download = "CurriculoRodrigoSimoes.pdf";
     link.target = "_blank";
     link.click();
