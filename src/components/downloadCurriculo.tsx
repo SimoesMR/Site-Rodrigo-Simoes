@@ -1,7 +1,11 @@
 const DownloadCurriculo = () => {
   const downloadArquivoCurriculo = () => {
     const link = document.createElement("a");
-    link.href = "/Site-Rodrigo-Simoes/CurriculoRodrigoSimoes.pdf";
+    const pdfPath =
+      process.env.NEXT_PUBLIC_PDF_PATH + "/CurriculoRodrigoSimoes.pdf";
+    if (pdfPath) {
+      link.href = pdfPath;
+    }
     link.download = "CurriculoRodrigoSimoes.pdf";
     link.target = "_blank";
     link.click();
