@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="text-center mt-12 py-10 bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <div className="text-center mt-12 py-10 bg-white px-10 md:px-20 lg:px-52 dark:bg-gray-900">
         <h2 className="text-5xl py-2 text-blue-900 font-medium dark:text-blue-400 md:text-6xl">
           Rodrigo Meneghetti Simões
         </h2>

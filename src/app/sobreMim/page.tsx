@@ -5,7 +5,7 @@ const sobreMim = () => {
   return (
     <>
       <Header />
-      <div className="mt-40 px-96 text-justify">
+      <div className="mt-32 px-10 sm:px-20 md:px-20 lg:px-52 text-justify">
         Sou desenvolvedor web altamente motivado e apaixonado por tecnologia,
         com mais de quatro anos de experiência em desenvolvimento de aplicações
         web utilizando C#, .NET, HTML, CSS, Javascript, React e SQL Server e
