@@ -1,3 +1,5 @@
+"use client";
+
 const DownloadCurriculo = () => {
   const downloadArquivoCurriculo = () => {
     const link = document.createElement("a");
