@@ -1,26 +1,27 @@
-import React, { useState } from "react";
+"use client";
 import Header from "@/components/header";
+import "../styles/globals.css";
+import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Metadata } from "next";
+import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
-// Essas declarações ficam fora do componente
-export const unstable_serialization = true;
 export const metadata: Metadata = {
   title: "Rodrigo M Simoes",
   description: "Aprsentação de Rodrigo e seus trabalhos",
 };
 
-const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const [darkMode, setDarkMode] = useState(false);
-
   return (
     <html lang="pt-Br">
       <Header darkMode={darkMode} setDarkMode={setDarkMode}></Header>
       <body className={inter.className}>{children}</body>
     </html>
   );
-};
-
-export default RootLayout;
+}
