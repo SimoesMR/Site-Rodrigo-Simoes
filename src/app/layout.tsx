@@ -1,16 +1,10 @@
 "use client";
 import Header from "@/components/header";
 import "../styles/globals.css";
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-  title: "Rodrigo M Simoes",
-  description: "Aprsentação de Rodrigo e seus trabalhos",
-};
 
 export default function RootLayout({
   children,
