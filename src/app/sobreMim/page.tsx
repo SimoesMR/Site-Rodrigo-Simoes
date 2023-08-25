@@ -47,7 +47,8 @@ const sobreMim = () => {
                         Next.js: explorando o framework
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Curso feito na Alura
+                        Curso ministrado pela
+                        <a href="https://www.alura.com.br/">Alura</a>
                       </p>
                     </div>
                   </div>
@@ -60,7 +61,7 @@ const sobreMim = () => {
                         React: escrevendo com Typescript
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Curso ministrado pela{" "}
+                        Curso ministrado pela
                         <a href="https://www.alura.com.br/">Alura</a>
                       </p>
                     </div>
@@ -74,7 +75,7 @@ const sobreMim = () => {
                         JavaScript: consumindo e tratando dados de uma API
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Curso ministrado pela{" "}
+                        Curso ministrado pela
                         <a href="https://www.alura.com.br/">Alura</a>
                       </p>
                     </div>
