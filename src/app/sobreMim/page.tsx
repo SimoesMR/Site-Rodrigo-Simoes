@@ -47,7 +47,7 @@ const sobreMim = () => {
                         Next.js: explorando o framework
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Curso ministrado pela
+                        Curso ministrado pela{" "}
                         <a href="https://www.alura.com.br/">Alura</a>
                       </p>
                     </div>
@@ -61,7 +61,7 @@ const sobreMim = () => {
                         React: escrevendo com Typescript
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Curso ministrado pela
+                        Curso ministrado pela{" "}
                         <a href="https://www.alura.com.br/">Alura</a>
                       </p>
                     </div>
@@ -75,7 +75,7 @@ const sobreMim = () => {
                         JavaScript: consumindo e tratando dados de uma API
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Curso ministrado pela
+                        Curso ministrado pela{" "}
                         <a href="https://www.alura.com.br/">Alura</a>
                       </p>
                     </div>
@@ -122,7 +122,7 @@ const sobreMim = () => {
                         Introdução ao DevOps
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Curso ministrado pelo
+                        Curso ministrado pelo{" "}
                         <a href="https://desenvolvedor.io/inicio">
                           desenvolvedor.io
                         </a>
@@ -138,7 +138,7 @@ const sobreMim = () => {
                         Dominando o ASP.NET MVC Core
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Curso ministrado pelo
+                        Curso ministrado pelo{" "}
                         <a href="https://desenvolvedor.io/inicio">
                           desenvolvedor.io
                         </a>
@@ -154,7 +154,7 @@ const sobreMim = () => {
                         Introdução ao Entity Framework Core
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Curso ministrado pelo
+                        Curso ministrado pelo{" "}
                         <a href="https://desenvolvedor.io/inicio">
                           desenvolvedor.io
                         </a>
@@ -172,10 +172,7 @@ const sobreMim = () => {
                         Estagiário na Moovefy
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Curso ministrado pelo
-                        <a href="https://desenvolvedor.io/inicio">
-                          desenvolvedor.io
-                        </a>
+                        Densevolver aplicações Web
                       </p>
                     </div>
                   </div>
