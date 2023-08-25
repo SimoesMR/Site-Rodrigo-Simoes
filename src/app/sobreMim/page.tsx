@@ -20,11 +20,11 @@ const sobreMim = () => {
 
             <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
               <div className="container mx-auto w-full h-full">
-                <div className="relative wrap overflow-hidden h-full">
+                <div className="relative wrap overflow-hidden h-full mb-28">
                   <div className="border-2-2 border-yellow-555 absolute h-full border"></div>
                   <div className="border-2-2 border-yellow-555 absolute h-full border"></div>
                   <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1 w-4/12 smd:w-6/12 md:w-0/12"></div>
                     <div className="order-1 w-full md:w-6/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-blue-300">Atualmente</p>
                       <h4 className="mb-3 font-bold text-lg md:text-2xl">
@@ -40,7 +40,7 @@ const sobreMim = () => {
                     </div>
                   </div>
                   <div className="mb-8 flex justify-between items-center w-full right-timeline">
-                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1  w-4/12 smd:w-6/12"></div>
                     <div className="order-1  w-full md:w-6/12 px-1 py-4 text-left">
                       <p className="mb-3 text-base text-blue-300">jul/23</p>
                       <h4 className="mb-3 font-bold text-lg md:text-2xl">
@@ -54,7 +54,7 @@ const sobreMim = () => {
                   </div>
 
                   <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1  w-4/12 smd:w-6/12 "></div>
                     <div className="order-1 w-full md:w-6/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-blue-300">jul/23</p>
                       <h4 className="mb-3 font-bold text-lg md:text-2xl">
@@ -68,7 +68,7 @@ const sobreMim = () => {
                   </div>
 
                   <div className="mb-8 flex justify-between items-center w-full right-timeline">
-                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1  w-4/12 smd:w-6/12 "></div>
                     <div className="order-1  w-full md:w-6/12 px-1 py-4">
                       <p className="mb-3 text-base text-blue-300">abr/23</p>
                       <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left">
@@ -82,14 +82,14 @@ const sobreMim = () => {
                   </div>
 
                   <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1  w-4/12 smd:w-6/12 "></div>
                     <div className="order-1 w-full md:w-6/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-blue-300">mar/23</p>
                       <h4 className="mb-3 font-bold text-lg md:text-2xl">
                         Programador Fullstack Pleno - Moovefy
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Desenvolvo aplicações web responsivas e escaláveis para
+                        Desenvolver aplicações web responsivas e escaláveis para
                         fins internos, B2B, CRM e com APIs Rest integradas,
                         seguindo os princípios SOLID. Minha abordagem envolve a
                         utilização de C# e .NET, juntamente com o framework
@@ -102,21 +102,20 @@ const sobreMim = () => {
                   </div>
 
                   <div className="mb-8 flex justify-between items-center w-full right-timeline">
-                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1  w-4/12 smd:w-6/12 "></div>
                     <div className="order-1  w-full md:w-6/12 px-1 py-4">
                       <p className="mb-3 text-base text-blue-300">mai/22</p>
                       <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left">
                         Programador Fullstack Junior - Moovefy
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Desenvolvo aplicações web responsivas para fins
-                        internos, B2B, CRM.
+                        Desenvolver aplicações web para fins internos, B2B, CRM.
                       </p>
                     </div>
                   </div>
 
                   <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1  w-4/12 smd:w-6/12 "></div>
                     <div className="order-1 w-full md:w-6/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-blue-300">jan/22</p>
                       <h4 className="mb-3 font-bold text-lg md:text-2xl">
@@ -132,7 +131,7 @@ const sobreMim = () => {
                   </div>
 
                   <div className="mb-8 flex justify-between items-center w-full right-timeline">
-                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1  w-4/12 smd:w-6/12 "></div>
                     <div className="order-1  w-full md:w-6/12 px-1 py-4">
                       <p className="mb-3 text-base text-blue-300">jan/22</p>
                       <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left">
@@ -148,7 +147,7 @@ const sobreMim = () => {
                   </div>
 
                   <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1  w-4/12 smd:w-6/12 "></div>
                     <div className="order-1 w-full md:w-6/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-blue-300">set/20</p>
                       <h4 className="mb-3 font-bold text-lg md:text-2xl">
@@ -164,7 +163,7 @@ const sobreMim = () => {
                   </div>
 
                   <div className="mb-8 flex justify-between items-center w-full right-timeline">
-                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1  w-4/12 smd:w-6/12 "></div>
                     <div className="order-1  w-full md:w-6/12 px-1 py-4">
                       <p className="mb-3 text-base text-blue-300">
                         out/19 até mai/20
