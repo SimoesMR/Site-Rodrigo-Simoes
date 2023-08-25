@@ -6,30 +6,10 @@ const sobreMim = () => {
   return (
     <>
       <Header />
-      {/* <div className="mt-32 px-10 sm:px-20 md:px-20 lg:px-52 text-justify">
-        Sou desenvolvedor web altamente motivado e apaixonado por tecnologia,
-        com mais de quatro anos de experiência em desenvolvimento de aplicações
-        web utilizando C#, .NET, HTML, CSS, Javascript, React e SQL Server e
-        Oracle. Além disso, tenho ampla experiência em publicação de aplicações
-        WEB SERVICES utilizando Azure, entre outras funções e trabalho com
-        metodologias Ágeis, como Scrum e Kanban, para garantir a entrega
-        contínua de valor.
-        <br />
-        Graduado em Banco de Dados pela FATEC de Bauru, onde tive a oportunidade
-        de estudar na Argentina por seis meses. Tenho habilidade de trabalhar em
-        equipe e colaborar com outros departamentos. Meus hobbies são viajar com
-        minha esposa e jogar jogos online.
-        <br />
-        Adoro ler sobre tecnologia e estou sempre buscando maneiras de me manter
-        atualizado e melhorar minhas habilidades como desenvolvedor. Acredito
-        que meus conhecimentos técnicos e minha paixão pela tecnologia fazem de
-        mim um grande profissional.
-        <br />
-      </div> */}
       <section>
-        <div className="bg-black text-white py-2">
-          <div className="container m-auto px-52 flex flex-col items-start md:flex-row my-12 md:my-24">
-            <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
+        <div className="bg-black text-white py-2 mt-8">
+          <div className="container m-auto px-10 md:px-20 lg:px-52 flex flex-col items-start lg:flex-row my-12">
+            <div className="flex flex-col w-full sticky lg:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
               <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">
                 SIC PARVIS MAGNA
               </p>
@@ -37,14 +17,15 @@ const sobreMim = () => {
                 “A grandiosidade vem das pequenas coisas”
               </p>
             </div>
+
             <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
               <div className="container mx-auto w-full h-full">
-                <div className="relative wrap overflow-hidden p-10 h-full">
+                <div className="relative wrap overflow-hidden h-full">
                   <div className="border-2-2 border-yellow-555 absolute h-full border"></div>
                   <div className="border-2-2 border-yellow-555 absolute h-full border"></div>
                   <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                    <div className="order-1 w-6/12"></div>
-                    <div className="order-1 w-6/12 px-1 py-4 text-right">
+                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1 w-full md:w-6/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-blue-300">Atualmente</p>
                       <h4 className="mb-3 font-bold text-lg md:text-2xl">
                         Front-End Pleno - Sinergytech
@@ -59,8 +40,8 @@ const sobreMim = () => {
                     </div>
                   </div>
                   <div className="mb-8 flex justify-between items-center w-full right-timeline">
-                    <div className="order-1 w-6/12"></div>
-                    <div className="order-1  w-6/12 px-1 py-4 text-left">
+                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1  w-full md:w-6/12 px-1 py-4 text-left">
                       <p className="mb-3 text-base text-blue-300">jul/23</p>
                       <h4 className="mb-3 font-bold text-lg md:text-2xl">
                         Next.js: explorando o framework
@@ -70,9 +51,10 @@ const sobreMim = () => {
                       </p>
                     </div>
                   </div>
+
                   <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                    <div className="order-1 w-6/12"></div>
-                    <div className="order-1 w-6/12 px-1 py-4 text-right">
+                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1 w-full md:w-6/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-blue-300">jul/23</p>
                       <h4 className="mb-3 font-bold text-lg md:text-2xl">
                         React: escrevendo com Typescript
@@ -85,8 +67,8 @@ const sobreMim = () => {
                   </div>
 
                   <div className="mb-8 flex justify-between items-center w-full right-timeline">
-                    <div className="order-1 w-6/12"></div>
-                    <div className="order-1  w-6/12 px-1 py-4">
+                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1  w-full md:w-6/12 px-1 py-4">
                       <p className="mb-3 text-base text-blue-300">abr/23</p>
                       <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left">
                         JavaScript: consumindo e tratando dados de uma API
@@ -99,8 +81,8 @@ const sobreMim = () => {
                   </div>
 
                   <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                    <div className="order-1 w-6/12"></div>
-                    <div className="order-1 w-6/12 px-1 py-4 text-right">
+                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1 w-full md:w-6/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-blue-300">mar/23</p>
                       <h4 className="mb-3 font-bold text-lg md:text-2xl">
                         Programador Fullstack Pleno - Moovefy
@@ -119,8 +101,8 @@ const sobreMim = () => {
                   </div>
 
                   <div className="mb-8 flex justify-between items-center w-full right-timeline">
-                    <div className="order-1 w-6/12"></div>
-                    <div className="order-1  w-6/12 px-1 py-4">
+                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1  w-full md:w-6/12 px-1 py-4">
                       <p className="mb-3 text-base text-blue-300">mai/22</p>
                       <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left">
                         Programador Fullstack Junior - Moovefy
@@ -133,8 +115,8 @@ const sobreMim = () => {
                   </div>
 
                   <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                    <div className="order-1 w-6/12"></div>
-                    <div className="order-1 w-6/12 px-1 py-4 text-right">
+                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1 w-full md:w-6/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-blue-300">jan/22</p>
                       <h4 className="mb-3 font-bold text-lg md:text-2xl">
                         Introdução ao DevOps
@@ -149,8 +131,8 @@ const sobreMim = () => {
                   </div>
 
                   <div className="mb-8 flex justify-between items-center w-full right-timeline">
-                    <div className="order-1 w-6/12"></div>
-                    <div className="order-1  w-6/12 px-1 py-4">
+                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1  w-full md:w-6/12 px-1 py-4">
                       <p className="mb-3 text-base text-blue-300">jan/22</p>
                       <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left">
                         Dominando o ASP.NET MVC Core
@@ -165,8 +147,8 @@ const sobreMim = () => {
                   </div>
 
                   <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                    <div className="order-1 w-6/12"></div>
-                    <div className="order-1 w-6/12 px-1 py-4 text-right">
+                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1 w-full md:w-6/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-blue-300">set/20</p>
                       <h4 className="mb-3 font-bold text-lg md:text-2xl">
                         Introdução ao Entity Framework Core
@@ -181,8 +163,8 @@ const sobreMim = () => {
                   </div>
 
                   <div className="mb-8 flex justify-between items-center w-full right-timeline">
-                    <div className="order-1 w-6/12"></div>
-                    <div className="order-1  w-6/12 px-1 py-4">
+                    <div className="order-1 w-full md:w-6/12"></div>
+                    <div className="order-1  w-full md:w-6/12 px-1 py-4">
                       <p className="mb-3 text-base text-blue-300">
                         out/19 até mai/20
                       </p>
