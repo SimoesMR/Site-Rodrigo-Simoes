@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Rodrigo3d from "../../public/perfil3d1.png";
+import Rodrigo3d from "../../public/perfil.png";
 import {
   SiHtml5,
   SiCss3,
