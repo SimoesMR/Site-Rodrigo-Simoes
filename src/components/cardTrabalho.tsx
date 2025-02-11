@@ -16,7 +16,7 @@ const Card: React.FC<cardTrabalhoProps> = ({
   imagem,
 }) => {
   return (
-    <div className="text-center shadow-lg p-2 pt-5 rounded-xl my-10 dark:bg-white flex-1">
+    <div className="text-center shadow-lg p-2 pt-5 rounded-xl my-10 flex-1">
       <div className="h-auto overflow-hidden">
         <Image
           src={imagem}

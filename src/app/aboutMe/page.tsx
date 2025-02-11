@@ -7,7 +7,7 @@ const sobreMim = () => {
     <>
       <Header />
       <section>
-        <div className="bg-black text-white py-2 mt-8">
+        <div className="bg-black text-white py-2">
           <div className="container m-auto px-10 md:px-20 lg:px-52 flex flex-col items-start lg:flex-row my-12">
             <div className="flex flex-col w-full sticky lg:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
               <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">

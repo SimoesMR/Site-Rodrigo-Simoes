@@ -2,7 +2,7 @@ import { AiFillInstagram, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 const RedesSociais = () => {
   return (
-    <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+    <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
       <a
         href="https://www.linkedin.com/in/rodrigo-meneghetti-simoes/"
         target="_blank"

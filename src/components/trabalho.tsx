@@ -5,7 +5,7 @@ import logoSinergytech from "../../public/logoSinergyTech.jpg";
 const Trabalho = () => {
   return (
     <section>
-      <h3 className="text-3xl py-1 text-blue-900 dark:text-white ">
+      <h3 className="text-3xl py-1 text-blue-900">
         Experiências
       </h3>
       <div className="max-w-2xl m-auto lg:flex gap-10 sm:max-w-5">
