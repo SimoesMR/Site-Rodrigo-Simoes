@@ -27,9 +27,9 @@ const Card: React.FC<cardTrabalhoProps> = ({
       </div>
       <div className="w-full p-4 justify-start flex flex-col">
         <h2 className="text-lg font-bold text-blue-900">{titulo}</h2>
-        <p>{ano}</p>
+        <p className="text-white">{ano}</p>
         <h3 className="text-lg font-medium pb-2 text-blue-700">{cargo}</h3>
-        <p className="my-4 text-justify">{texto}</p>
+        <p className="my-4 text-justify text-white">{texto}</p>
       </div>
     </div>
   );

@@ -6,31 +6,28 @@ const Trabalho = () => {
   return (
     <section>
       <h3 className="text-3xl py-1 text-blue-900">
-        Experiências
+        Experience
       </h3>
       <div className="max-w-2xl m-auto lg:flex gap-10 sm:max-w-5">
         <Card
           imagem={logoSinergytech}
           titulo="SinergyTech"
           ano="(Atual)"
-          cargo="Desenvolvedor Front-end Pleno"
-          texto="Responsável pelo desenvolvimento e
-          manutenção de aplicações web utilizando
-          linguagem HTML, CSS, Bootstrap,
-          Javascript, JQuery e React.
+          cargo="Full Stack Developer"
+          texto="Responsible for the development and maintenance of web applications using 
+          HTML, CSS, Bootstrap, JavaScript, jQuery, and React. Additionally, 
+          I work as a full-stack developer, building and maintaining backend services with C# (.NET) 
+          and developing RESTful APIs to ensure efficient communication between frontend and backend systems.
           "
         />
         <Card
           imagem={logoMooveft}
           titulo="Moovefy"
           ano="(2019 - 2023)"
-          cargo="Desenvolvedor Full Stack Pleno"
-          texto="Desenvolvedor Full stack de aplicações
-          CRM e B2B utilizando C#, .Net Core,
-          Javascript e DevExtreme. Fui responsável
-          pela publicação de versões e manutenção
-          das aplicações e bandos de dados da
-          Azure"
+          cargo="Full Stack Developer"
+          texto="Full-stack developer of CRM and B2B applications using C#, 
+          .NET Core, JavaScript, and DevExtreme. 
+          I was responsible for version releases and the maintenance of applications and databases in Azure."
         />
       </div>
     </section>

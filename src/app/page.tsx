@@ -17,19 +17,20 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="text-center py-10 bg-black px-10 md:px-20 lg:px-52">
+      <div className="text-center bg-black py-10 px-10 pt-32 md:px-20 lg:px-52">
+        <RedesSociais />
         <h1 className="text-5xl py-2 text-blue-900 font-medium md:text-6xl">
           Rodrigo Meneghetti Simões
         </h1>
         <h2 className="text-2xl py-2 text-white md:text-3xl">
-          Desenvolvedor Full Stack
+          Full Stack Developer
         </h2>
         <p className="text-md py-5 leading-8 text-white max-w-xl mx-auto md:text-xl">
-          Programador full stack há 4 anos, especializado em C# (.Net), SQL
-          Server, HTML, CSS, JS e React. Desenvolvo aplicações Web seguindo boas
-          práticas como SOLID e Design Patterns, em equipe ágil.
+        Full-stack developer with 4 years of experience, specialized in C# (.NET),
+         SQL Server, HTML, CSS, JS, and React. 
+         I develop web applications following best practices such as SOLID and Design Patterns, working in an agile team.
         </p>
-        <div className="text-4xl flex flex-wrap md:flex-row justify-center gap-16 py-3 text-gray-600">
+        <div className="text-4xl flex flex-wrap md:flex-row justify-center gap-16 py-3 text-white">
           <SiHtml5 title="HTML" />
           <SiCss3 title="CSS" />
           <SiJavascript title="JavaScript" />
@@ -46,7 +47,7 @@ const Home = () => {
             objectFit="cover"
           />
         </div>
-        <RedesSociais />
+        
         <Trabalho />
       </div>
     </>
