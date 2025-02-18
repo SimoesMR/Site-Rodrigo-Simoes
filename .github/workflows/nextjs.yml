@@ -79,6 +79,15 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Static HTML export with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
+         # Verifica se o diretório .next existe antes de tentar fazer o upload
+      - name: Check if .next directory exists
+        run: |
+          if [ -d ".next" ]; then
+            echo ".next directory found"
+          else
+            echo ".next directory not found"
+            exit 1
+          fi
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
